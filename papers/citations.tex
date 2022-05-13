@@ -1,0 +1,92 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% START OF DOCUMENT
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RUBRIC
+% – Abstract: 5 points
+% – Introduction and Motivation: 10 points
+% – Related work: 10 points
+% – Method: 15 points
+% – Results: 25 points
+% – Discussion, Conclusions, and Future Work: 10 points
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[conference]{IEEEtran}
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Comparison of PSO vs. Gradient Descent in Optimization For Neural Networks Citations}
+
+\author{\IEEEauthorblockN{Hunter Price}
+\IEEEauthorblockA{\textit{EECS} \\
+\textit{University Of Tennessee}\\
+Knoxville, United States \\
+hprice7@vols.utk.edu}
+}
+
+\maketitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% References/Bibliography
+\begin{thebibliography}{00}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Algorithm papers
+
+%% Initial proposal of particle swarm optimization
+\bibitem{pso} J. Kennedy and R. Eberhart, "Particle swarm optimization," Proceedings of ICNN'95 - International Conference on Neural Networks, 1995, pp. 1942-1948 vol.4, doi: 10.1109/ICNN.1995.488968.
+%% Initial proposal of stochastic gradient descent
+\bibitem{sgd} Bottou, Léon. "Stochastic gradient learning in neural networks." Proceedings of Neuro-Nımes 91.8 (1991): 12.
+%% Initial proposal of Adam Optimizer
+\bibitem{adam} Kingma, Diederik P., and Jimmy Ba. "Adam: A method for stochastic optimization." arXiv preprint arXiv:1412.6980 (2014).
+)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Datasets
+
+%% Synthetic Dataset
+\bibitem{synth} Ripley, B. (1996). Pattern Recognition and Neural Networks. Cambridge: Cambridge University Press. doi:10.1017/CBO9780511812651
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PSO in nn
+
+%% PSO to optimize NN weights and architecture
+\bibitem{pso_nn1} M. Carvalho and T. B. Ludermir, "Particle Swarm Optimization of Neural Network Architectures and Weights," 7th International Conference on Hybrid Intelligent Systems (HIS 2007), 2007, pp. 336-339, doi: 10.1109/HIS.2007.45.
+%% Comparing PSO w gradient descent
+\bibitem{pso_nn2} V. G. Gudise and G. K. Venayagamoorthy, "Comparison of particle swarm optimization and backpropagation as training algorithms for neural networks," Proceedings of the 2003 IEEE Swarm Intelligence Symposium. SIS'03 (Cat. No.03EX706), 2003, pp. 110-117, doi: 10.1109/SIS.2003.1202255.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PSO use case
+
+%% PSO trained nn use case for structural failure
+\bibitem{pso_structural} Chatterjee, S., Sarkar, S., Hore, S. et al. Particle swarm optimization trained neural network for structural failure prediction of multistoried RC buildings. Neural Comput \& Applic 28, 2005–2016 (2017). https://doi.org/10.1007/s00521-016-2190-2
+%% PSO trained nn use case for seismic stability
+\bibitem{pso_seismic} Gordan, B., Jahed Armaghani, D., Hajihassani, M. et al. Prediction of seismic slope stability through combination of particle swarm optimization and neural network. Engineering with Computers 32, 85–97 (2016). https://doi.org/10.1007/s00366-015-0400-7
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PSO evolving nn
+
+%% PSO for optimizing neural network architectures
+\bibitem{pso_nn4} Beatriz A. Garro and Roberto A. Vázquez. 2015. Designing Artificial Neural Networks using particle swarm optimization algorithms. Intell. Neuroscience 2015, Article 61 (January 2015), 1 pages. https://doi.org/10.1155/2015/369298
+%% PSO evolving nn
+\bibitem{pso_evolve_nn} Garro, B.A., Sossa, H., Vázquez, R.A. (2011). Evolving Neural Networks: A Comparison between Differential Evolution and Particle Swarm Optimization. In: Tan, Y., Shi, Y., Chai, Y., Wang, G. (eds) Advances in Swarm Intelligence. ICSI 2011. Lecture Notes in Computer Science, vol 6728. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-21515-5\_53
+%% PSO for evolving NN architecture
+\bibitem{pso_nn3} Chunkai Zhang, Huihe Shao and Yu Li, "Particle swarm optimisation for evolving artificial neural network," Smc 2000 conference proceedings. 2000 ieee international conference on systems, man and cybernetics. 'cybernetics evolving to systems, humans, organizations, and their complex interactions' (cat. no.0, 2000, pp. 2487-2490 vol.4, doi: 10.1109/ICSMC.2000.884366.
+\end{thebibliography}
+
+\end{document}
